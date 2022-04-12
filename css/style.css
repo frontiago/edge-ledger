@@ -174,3 +174,25 @@ img {
 .callback-form input:focus {
     outline-color: #28a745;
 }
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #28a745;
+}
+
+.footer .social>* {
+    margin-right: 30px;
+}
