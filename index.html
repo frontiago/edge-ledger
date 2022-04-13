@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <title>Welcome to Edge Ledger</title>
 </head>
 <body id="home">
@@ -96,20 +97,36 @@
         </header>
         <div class="row">
             <div class="column">
-                <img src="images/cases/cases1.jpg" alt="photo 1">
-                <img src="images/cases/cases2.jpg" alt="photo 2">
+                <a href="images/cases/cases1.jpg" data-lightbox="cases" data-title="Brainstorm">
+                    <img src="images/cases/cases1.jpg" alt="photo 1">
+                </a>
+                <a href="images/cases/cases2.jpg" data-lightbox="cases" data-title="Administration">
+                    <img src="images/cases/cases2.jpg" alt="photo 2">
+                </a>
             </div>
             <div class="column">
-                <img src="images/cases/cases3.jpg" alt="photo 3">
-                <img src="images/cases/cases4.jpg" alt="photo 4">
+                <a href="images/cases/cases3.jpg" data-lightbox="cases" data-title="Data Analysis">
+                    <img src="images/cases/cases3.jpg" alt="photo 3">
+                </a>
+                <a href="images/cases/cases4.jpg" data-lightbox="cases" data-title="Infrastructure">
+                    <img src="images/cases/cases4.jpg" alt="photo 4">
+                </a>
             </div>
             <div class="column">
-                <img src="images/cases/cases5.jpg" alt="photo 5">
-                <img src="images/cases/cases6.jpg" alt="photo 6">
+                <a href="images/cases/cases5.jpg" data-lightbox="cases" data-title="Partnership">
+                    <img src="images/cases/cases5.jpg" alt="photo 5">
+                </a>
+                <a href="images/cases/cases6.jpg" data-lightbox="cases" data-title="Healthy Work">
+                    <img src="images/cases/cases6.jpg" alt="photo 6">
+                </a>
             </div>
             <div class="column">
-                <img src="images/cases/cases7.jpg" alt="photo 7">
-                <img src="images/cases/cases8.jpg" alt="photo 8">
+                <a href="images/cases/cases7.jpg" data-lightbox="cases" data-title="Team Work">
+                    <img src="images/cases/cases7.jpg" alt="photo 7">
+                </a>
+                <a href="images/cases/cases8.jpg" data-lightbox="cases" data-title="Happy Work">
+                    <img src="images/cases/cases8.jpg" alt="photo 8">
+                </a>
             </div>
         </div>
     </section>
@@ -203,6 +220,9 @@
         <p>Copyright &copy; 2022 - EdgeLedger</p>
     </footer>
 
+    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/lightbox.min.js"></script>
 <script type="text/javascript">
     const navbar = document.getElementById('navbar')
     let scrolled = false
