@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     background: #fff;
     color: #333;
     line-height: 1.6;
+    transition: 1s ease;
 }
 
 ul {
@@ -48,6 +50,7 @@ img {
     position: fixed;
     top: 0;
     padding: 0 30px;
+    transition: 0.5s ease-in;
 }
 
 .navbar.top {

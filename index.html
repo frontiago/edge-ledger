@@ -205,14 +205,17 @@
 
 <script type="text/javascript">
     const navbar = document.getElementById('navbar')
+    let scrolled = false
 
-window.onscroll = function(){
-    if(window.pageYOffset > 100) {
-        navbar.classList.remove('top')
-    } else {
-        navbar.classList.add('top')
+    window.onscroll = function(){
+        if(window.pageYOffset > 100) {
+            navbar.classList.remove('top')
+            navbar.style.transform = 'translateY(-70px)'
+        } else {
+            navbar.classList.add('top')
+            navbar.style.transform = 'translateY(0px)'
+        }
     }
-}
 </script>
 </body>
 </html>
