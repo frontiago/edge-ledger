@@ -1,4 +1,8 @@
 # Edge Ledger
-A website about a business group, made with html and css using flexbox.
+- A website about a business group
+- HTML / CSS / Javascript
+- Fully responsive
 
-[View Online](https://thiagowfer.github.io/edge-ledger/)
+### 👁️ [View Online](https://thiagowfer.github.io/edge-ledger/)
+
+![Print](/img/print.png)
