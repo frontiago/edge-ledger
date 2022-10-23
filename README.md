@@ -5,4 +5,4 @@
 
 ### 👁️ [View Online](https://thiagowfer.github.io/edge-ledger/)
 
-![Print](/img/print.png)
+![Print](print.png)
