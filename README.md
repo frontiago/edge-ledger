@@ -3,6 +3,6 @@
 - HTML / CSS / Javascript
 - Fully responsive
 
-### 👁️ [View Online](https://thiagowfer.github.io/edge-ledger/)
+### 👁️ [View Online](https://frontiago.github.io/edge-ledger/)
 
 ![Print](print.png)
